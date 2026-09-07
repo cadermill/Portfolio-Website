@@ -6,7 +6,7 @@ const projects = [
     images: null,
     videos: ["/ProjectsMedia/CelShader/CelShowcase.mp4", "/ProjectsMedia/CelShader/TechnicalShowcase.mp4"],
     description: "A custom cel shader written in HLSL in Unity's ShaderLab for the Universal Render Pipeline.",
-    link: "https://github.com/cadermill/Shaders",
+    link: "https://github.com/cadermill/Shaders/tree/main/Assets/Shaders/Cel",
     coverImg: "/ProjectsMedia/CelShader/CelShaderCoverImg.PNG",
     coverGif: null
   },
@@ -27,7 +27,7 @@ const projects = [
     images: null,
     videos: ["/ProjectsMedia/Apartment/Apartment.mp4"],
     description: "A short animation of a stylized apartment modeling, textured, and animated in Maya",
-    coverImg: null,
+    coverImg: "/ProjectsMedia/Apartment/ApartmentCoverImg.png",
     coverGif: null
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     images: null,
     videos: ["/ProjectsMedia/MagicMushroom/MagicMush.mp4"],
     description: "A short animation of a stylized magical mushroom forest, modeled, textured, and animated in Maya.",
-    coverImg: null,
+    coverImg: "/ProjectsMedia/MagicMushroom/MagicMushroomCoverImg.png",
     coverGif: null
   },
   {
@@ -78,7 +78,8 @@ const projects = [
     videos: ["/ProjectsMedia/DigitalImpressionism/DigitalImpressionismTechnicalShowcase.mp4"],
     description: "The following showcases two shaders I have written in an effort to create a sort of “digital impressionism.” While different from my original goal, I believe to have created an aesthetically pleasing voronoi-based procedural shader suitable for various stylized applications.",
     coverImg: "/ProjectsMedia/DigitalImpressionism/DigitalImpressionismCoverImg.PNG",
-    coverGif: null
+    coverGif: null,
+    link: "https://github.com/cadermill/Shaders/tree/main/Assets/Shaders/DigitalImpressionism"
   }
 ];
 
